@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-x="0"
-until [ $x -ge 10 ]
+# This script file prints "Holberton school" 10 times
+n=0
+
+until [ $n -ge 10 ]
 do
-    echo "Best School"
-    x=$((x+1))
+    echo "Holberton School"
+    n=$(( n + 1 ))
 done
