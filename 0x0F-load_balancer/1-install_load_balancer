@@ -40,8 +40,8 @@ frontend tjibbs-tech-frontend
 
 backend tjibbs-tech-backend
     balance roundrobin
-    server 145920-web-01 54.237.224.189:80 check
-    server 145920-web-02 100.25.33.239:80 check
+    server 461401-web-01 52.91.120.110 check
+    server 461401-web-02 54.157.161.249 check
 "
 
 # shellcheck disable=SC2154
