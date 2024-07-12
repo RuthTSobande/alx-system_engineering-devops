@@ -40,3 +40,6 @@ backend Randommallstudio.tech_backend
         balance  roundrobin
         server 461401-web-01 52.91.120.110 check
         server 461401-web-02 54.157.161.249 check
+
+backend letsencrypt-backend
+    server letsencrypt 18.206.206.254
